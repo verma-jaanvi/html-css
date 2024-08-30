@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Survey Page</title>
+</head>
+<body>
+    <header>
+        <h1>SURVEY PAGE</h1>
+        <p class="welcome">WELCOME TO OUR SURVEY PAGE</p>
+    </header>
+    <div class="container">
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="ENTER YOUR NAME">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="ENTER YOUR EMAIL">
+        <br>
+        <br>
+        <label for="age">Age</label>
+        <input id="age" type="number" placeholder="ENTER YOUR AGE">
+        <br>
+        <br>
+        <p>Which option best describes your current role?</p>
+        <select name="role" >
+            <option disabled selected value>Select current role</option>
+            <option>Student</option>
+            <option>Full time</option>
+            <option>Part time</option>
+            <option>Prefer not to say</option>
+            <option>Others</option>
+        </select>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label>
+            <input name="abc" value="Definitely" type="radio" class="radio">
+            Definitely
+        </label class="radio">
+        <br>
+        <label>
+            <input name="abc" value="Maybe" type="radio" class="radio">
+            Maybe
+        </label>
+        <br>
+        <label>
+            <input name="abc" value="Not sure" type="radio" class="radio">
+            Not sure
+        </label>
+        <p>What is your favorite feature of freeCodeCamp?</p>
+        <select name="role" >
+            <option disabled selected value>Select on option</option>
+            <option>Challenges</option>
+            <option>Projects</option>
+            <option>Community</option>
+            <option>Open source</option>
+        </select>
+        <p>What would you like to see improvd?
+            <span class="fontchange">(check all that apply)</span> 
+        </p>
+        <label>
+            <input name="prefer" type="checkbox" class="radio" value="Front-end-projects">
+            Front-end Projects
+        </label>
+        <br>
+        <label>
+            <input name="prefer" type="checkbox" class="radio" value="Back-end Projects">
+            Back-end Projects
+        </label>
+        <br>
+        <label>
+            <input name="prefer" type="checkbox" class="radio" value="Data Visualization">
+            Data Visualization
+        </label>
+        <br>
+        <label>
+            <input name="prefer" type="checkbox" class="radio" value="Open Source Community">
+            Open Source Community
+        </label>
+        <br>
+        <label>
+            <input name="prefer" type="checkbox" class="radio" value="Gitter help rooms">
+            Gitter help rooms
+        </label>
+        <br>
+        <label>
+            <input name="prefer" type="checkbox" class="radio" value="Videos">
+            Videos
+        </label>
+        <br>
+        <label>
+            <input name="prefer" type="checkbox" class="radio" value="City Meetups">
+            City Meetups
+        </label>
+        <br>
+        <label>
+            <input name="prefer" type="checkbox" class="radio" value="Wiki">
+            Wiki
+        </label>
+        <br>
+        <label>
+            <input name="prefer" type="checkbox" class="radio" value="Forum">
+            Forum
+        </label>
+        <br>
+        <label>
+            <input name="prefer" type="checkbox" class="radio" value="Additional Courses">
+            Additional Courses
+        </label>
+        <p>Any comments or suggestions?</p>
+        <textarea placeholder="Enter your commnet here..." cols="60" rows="10"></textarea>
+        <div class="submit">
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+</body>
+</html>

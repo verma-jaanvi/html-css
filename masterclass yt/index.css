@@ -1,0 +1,123 @@
+/* .bg-gray-900 {
+    background-color: #121826 ;
+} */
+.text-16px{
+    font-size: 16px;
+}
+.text-36px{
+    font-size: 36px;
+}
+@media (min-width:640px ){
+    .sm\:text-60px{
+        font-size: 60px;
+    }
+    .sm\:text-20px{
+        font-size: 20px;
+    }
+}
+
+
+
+.text-white{
+    color: white;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    /* for cleaner texts */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Lato', sans-serif;
+}
+h1,p{
+    margin:0px;
+}
+.p-1st{
+    margin: 30px 0px;
+    /* font-size: 20px; */
+    /* font-weight: 400;
+    line-height: 26px; */
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center; /*align items in the center horzontally*/
+}
+.items-center{
+    align-items: center; /*align items in the center vertically*/
+}
+.justify-between{
+    justify-content: space-between;
+}
+.m-8{
+    margin: 8px;
+}
+.p-h{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.p-8-16{
+    padding: 8px 18px;
+}
+.p-login{
+    padding: 8px 30px;
+}
+.p-signup{
+    padding: 12px 25px;
+}
+header{
+
+    position: relative;
+    z-index: 10;
+    padding:0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.signup-but{
+    border-radius: 30px;
+    background-color: #539D98;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.img-background{
+    width: 100%;
+    position: absolute;
+    top: -79px;
+}
+.object-fit{
+    object-fit: cover;
+}
+/* .h1-turbo{ */
+    /* font-weight: 700; */
+    /* font-style: normal; */
+    /* font-size: 60px; */
+    /* line-height: 72px; */
+    /* padding: 0px; */
+/* } */
+.color-teal{
+    color: #90cac6;
+}
+.max-width{
+    max-width:538px;
+}
+.get-started-button{
+    /* background-color: white; */
+    border: none;
+    padding: 15px 35px;
+    color: #539D98;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.text-on-top{
+    position: relative;
+    top:100px;
+}
+.center{
+    max-width: 1200px;
+    margin: 0 auto;
+}
